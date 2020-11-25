@@ -2,3 +2,8 @@ Blog post about quantity:
 -Practice what you have learned. Perfection is not important in the learning arena at this time. Commit to trying and getting better.
 
 Clean Code Chapter 1:
+Coming from a manufacturing background the foreward has some easily understood analogies to lean manufacturing for writing code. 
+Chapter 1 goes into the question why write good code? The answer being: a dev will spent 10x time reading code vs writing. 
+Holding yourself to the standard of writing code someone else can read will save in maintenance time and allow easier implementation of new features.
+
+
