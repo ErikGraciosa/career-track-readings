@@ -6,4 +6,10 @@ Coming from a manufacturing background the foreward has some easily understood a
 Chapter 1 goes into the question why write good code? The answer being: a dev will spent 10x time reading code vs writing. 
 Holding yourself to the standard of writing code someone else can read will save in maintenance time and allow easier implementation of new features.
 
+Red Green Refactor:
+Red: write test that confirms implementation of a feature
+Green: write minimal implementation code to pass test
+Refactor: refactor and make sure passes test
 
+The Cycles of TDD:
+Description of thought cycles at different intervals. Tough concept to read about, would be nice to see a video of someone practicing these cycles.
