@@ -5,16 +5,16 @@ Objects Computed Properties - Lots of new syntax, examples of key names possible
 Classes Creation - 
 
 Object Destructuring-
-Arrays- x
-Strings- x
-Objects- x
-Destructuring with Defaults- x
-Destructuring function params- 
-destructuing with alias-
+Arrays- done
+Strings- done
+Objects- done
+Destructuring with Defaults- done
+Destructuring function params- feels like more error handling with default params
+destructuing with alias- done
 
 Rest
 As a param - wow, eliminating args was surprising. avoiding wrong number of args passed.
-Rest while destructuring-x
+Rest while destructuring-done
 
 Spread- kinda like opposite of rest, unpacks array into separate values
 
