@@ -3,6 +3,9 @@ Object Basics - How to use short hand with objects that have equal values for ke
 Objects Computed Properties - Lots of new syntax, examples of key names possible construction. The 'get' notation is new to me.
 
 Classes Creation - 
+creation- basic creation making more sense, the later tests not making much sense
+statics- done
+extends- can define new classes based on already defined classes
 
 Object Destructuring-
 Arrays- done
