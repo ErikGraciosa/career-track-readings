@@ -1,0 +1,9 @@
+Destructuring- unpack values from arrays or properties from objects. Feature that is similiar to other languages like Perl or Python.
+can have default variables, can mutate variables, can parse returning array from a function, 
+Need of parenthesis when using object literals is some interesting syntax.
+
+
+Spread-multiple spreads possible when putting into function args, different way to splice. Used instead of .concat in arrays.
+Can merge objects together.
+
+Rest- an array with non-defined length, always last parameter. When used in function arguments will put arguments into an array vs explicitly define the args into an array.
