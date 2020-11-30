@@ -1,0 +1,24 @@
+Array Methods-
+
+Array Method Cheat Sheet-
+
+TDD, Where Did It All Go Wrong-
+Resistance to TDD 10 years ago. 
+More test code written than implementation code.
+Example of tests breaking when refactoring and took a longer amount of time to make a change because the test would have to be fixed.
+Shipping code fast vs maintainable code.
+Failing Tests will prevent checkins => check-in dance.
+What is the right way to do TDD?
+Where did TDD go wrong?
+Write a test when implementing a requirement.
+Write test against the stable contract.
+BDD-behavior driven development, Dan North
+As long as you have a test, write code quickly to satisfy the test.
+Make good code in refactoring, no new tests in refactoring.
+Dependency bad!
+
+
+
+TDD red-green-refactor-
+
+Cycles of TDD-
