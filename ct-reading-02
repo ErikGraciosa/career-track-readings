@@ -1,6 +1,10 @@
-Array Methods-
+Array Methods- the new ones to me i'll have to practice with are \
+.includes() checks if any element equals arg in .includes(arg), 
+.some() a conditional check if any element is true then returns true, 
+Array.from() makes things that are array-like into a true array when passed in as an arg
+Array.of() creates an array from all arguments passed to it. Seems like array literal would be better.
 
-Array Method Cheat Sheet-
+Array Method Cheat Sheet-A nice flow chart with good descriptions
 
 TDD, Where Did It All Go Wrong-
 Resistance to TDD 10 years ago. 
@@ -19,6 +23,6 @@ Dependency bad!
 
 
 
-TDD red-green-refactor-
+TDD red-green-refactor-First write a test, test will fail, then write enough code to satisfy the test, then come back and clean up the code. Seems simple enough.
 
-Cycles of TDD-
+Cycles of TDD-The different scales of the TDD mentioned make it seem like the author is highlighting a perpetual need to emphasis good code.
