@@ -1,0 +1,18 @@
+Clean code ch2 meaningful names-
+Name everything with meaning to show intent.
+Avoid names that have default meaning elsewhere.
+Figure out a different name when variables share the same scope and can't have the same name.
+Searchable
+Classes/OBjects should be nouns.
+Methods should be verbs.
+Be consistent.
+
+Classes syntax-
+A class is a blueprint for making an object. 
+After declaring a class then must be called with 'new'
+getters and setters still not sure where to start on the concept.
+
+
+Classes MDN - 
+Extending is possible to give a later class definition access to previous class properties.
+Will need to find a problem to solve with a class to really understand classes.
