@@ -1,0 +1,3 @@
+Promises-Having states of pending, fulfilled, rejected. The reading helping some to reveal what the error message of invalid variables type being a promise that I had yesterday when trying to set an async function to a constant variable.
+
+The video was good to show the call stack, I was having trouble with a recursion function executing the rest of the function without breaking out and the call stack visual made more sense why. I needed to but the function call to itself into a return statement instead of just an additional line in the function.
