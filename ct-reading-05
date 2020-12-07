@@ -1,0 +1,19 @@
+Inside a computer -
+  Good overview, optical drives are dead I guess.
+  
+PostgreSQL INSERT-
+ adds a row, basic example to add a row to a table, call the table with columns, call the values, need to have equal elements in each. Optional to return something.
+ INSERT INTO links (url, name)
+ VALUES('https://www.postgresqltutorial.com','PostgreSQL Tutorial');
+
+PostgreSQL SELECT-
+  SELECT will query data currently in the table. Able to add on clauses to filter down to specific data from a single table or join tables.
+  
+PostgreSQL UPDATE-
+  used to modify data in a table. 
+
+PostgreSQL DELETE-
+  used to delete a row or multiple rows(DELETE FROM table). Using WHERE to conditionally delete rows.
+  
+  
+  
