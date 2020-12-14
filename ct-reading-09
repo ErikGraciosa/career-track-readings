@@ -1,0 +1,15 @@
+Video - APIs, contract from one piece of SW to another
+  -delivery of info based on contract, like the unique shaped blocks toy
+  -Http methods, gets, post, put, delete, lesser used: head, options, patch
+  -REST is a standard
+  -standard response/fail codes like 200, 404
+  -good to see that there is a rate limit response at least for github API.
+http basics- the three pillars, URL structure, verbs, status codes.
+  -  URLS, have protocol, host, port, resources path, query.
+  -verbs: get, post, put, delete
+  -2xx: success. 3xx redirection. 4xx client error, 5xx server error
+DNS- domain name system translating IP addresses to words.
+  -first checks browser cache, then checks OS cache then checks resolver server (usually ISP) cache for what the IP is of the webaddress, then checks ROOT server(1 of 13 operated by 12 different orgs, then checks TLD, then checks domain registrar that communicates to the authoritative name servers.
+  -TLD - top level domain
+  -ICANN - internet corporation of assigned names and numbers
+  -authoritative name servers.
