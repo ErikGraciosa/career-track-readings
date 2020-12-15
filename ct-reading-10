@@ -1,0 +1,34 @@
+Overall feels like we are peeling back another layer of the onion that is express.
+
+using express routing
+  -This was cool to enable multiple paths to the same endpoint: The characters ?, +, *, and () are subsets of their regular expression counterparts. The hyphen (-) and the dot (.) are interpreted literally by string-based paths. 
+  -Can use multiple req.params.'variable' in the URL. Also req.params that aren't numbers. Or cleverly using '-' or '.' since they are intrepretted literally.
+  -can filter req.params using reg-x in parenthesis (regex here)
+        Route path: /user/:userId(\d+)
+        Request URL: http://localhost:3000/user/42
+        req.params: {"userId": "42"}
+  -can invoke an array of functions to a single route.
+  -using a router to import routes and gain access to them.
+  
+  
+supertest
+  - used to test HTTP while still allowing to drop down to the lower-level API using super agent.
+  - lots of chaining and methods I am unfamiliar with.
+
+using express middleware
+  -if multiple routes have the same path only the first is called, second will never be ran. UNLESS next() called.
+  -application vs router level middlewear.
+  -example error handling route requires 4 args.
+          app.use(function (err, req, res, next) {
+        console.error(err.stack)
+        res.status(500).send('Something broke!')
+      })
+
+express middleware
+  -middlewear functions are functions that have access to the request object(req and the response object (res) 
+  -can have app.use for global routes or restrict to particular URLs
+  -order is important for the routes, can use app.use with the same URL if wanting a function to run everytime a URL is sent.
+
+express middleware list
+  -more layers of the express onion.
+
