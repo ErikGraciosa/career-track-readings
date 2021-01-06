@@ -1,0 +1,33 @@
+https://jwt.io/introduction/
+-Header
+-Payload
+-Signature
+like so xxxxx.yyyyy.zzzzz
+Header has the type of token and the signing algorithm
+payload contains the claims, claims are statements about an entity. registered, public, and private claims.
+example
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "admin": true
+}
+
+Auth through 3rd party server using a JWT I think is the structure introduced in the article.
+
+
+https://danboterhoven.medium.com/why-you-should-use-bcrypt-to-hash-passwords-af330100b861
+Using B-crypt - adaptive hash function, not sure what this is yet.
+
+
+
+https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
+oh, hey next article, "The bcrypt hashing function allows us to build a password security platform that scales with computation power and always hashes every password with a salt."
+
+for password safety, salt, then hash, then make algorithm really slow(or scale to be slower with faster HW). So algorithm to reduce
+the number of tries per second in a dictionary attack.
+Speed vs security is the trade off.
+"While hashing and salting prevent a brute-force attack of billions of attempts to be successful, a single password crack is computationally feasible."
+Next step is 2factor-auth.
+npm i bcrypt
+
+
