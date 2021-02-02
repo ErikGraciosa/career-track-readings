@@ -9,8 +9,15 @@ Keys used by react to detect change.
 Decide when to use inline or create another component to keep code clean.
 
 #Typechecking Props
+Adding a type of variable check.
+Greeting.propTypes = {
+  name: PropTypes.string
+};
 
 #Components and Props
+Function and class components, we know class, i hear we get into functional components.
+Components need to be started with capital letter, react will tret the tag as a DOM element if not capital.
+All React components must act like pure functions with respect to their props.
 
 #handling events
 
