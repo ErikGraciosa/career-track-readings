@@ -20,7 +20,34 @@ Components need to be started with capital letter, react will tret the tag as a 
 All React components must act like pure functions with respect to their props.
 
 #handling events
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+Make sure to prevent default.
+// This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
+//Seems weird.
+
+//Seems less weird
+class LoggingButton extends React.Component {
+  handleClick() {
+    console.log('this is:', this);
+  }
+
+  render() {
+    // This syntax ensures `this` is bound within handleClick
+    return (
+      <button onClick={() => this.handleClick()}>
+        Click me
+      </button>
+    );
+  }
+}
+
 
 #snapshot testing
+Used to test the output is correct. Different from visual regression testing.
+Snapshot will serialize values and compare using a diff algorithm.
 
 #React Testing Library
+Testing like a user would interact with the site.
