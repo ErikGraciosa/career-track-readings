@@ -1,0 +1,16 @@
+#setState explained
+pitfalls: setState receives an object, only the last key will be saved, work around is to pass functions.
+updater to access state immediately
+teach setState() as asyncronous.
+
+#Lists and Keys
+
+#Typechecking Props
+
+#Components and Props
+
+#handling events
+
+#snapshot testing
+
+#React Testing Library
