@@ -4,6 +4,9 @@ updater to access state immediately
 teach setState() as asyncronous.
 
 #Lists and Keys
+Keys need to be unique in siblings, not globally, anytime in a .map() give the elements a key.
+Keys used by react to detect change.
+Decide when to use inline or create another component to keep code clean.
 
 #Typechecking Props
 
