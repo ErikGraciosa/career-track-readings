@@ -1,0 +1,33 @@
+MVC Model View Controller
+
+like Django for Python or Ruby on Rails, but google says React is not an MVC for javascript.
+
+Model and Controller we had clear examples of in class, not really seeing the parallel to model in the FE though. Maybe model is just the BE?
+
+Architecting Single Page Applications (Links to an external site.)
+State management systems like MobX exists for the store layer.
+
+Application services - for orchestrating external operations like fetches from the BE or 3rd party.
+
+View layer - where the presentational and container components live.
+
+Domain layer - has the business logic.
+
+What is // @flow? -type checker.
+
+REACT MVC
+
+hooks made the author's components too beefy and that was a problem because they had to re-write too much when there were changes at higher levels.
+
+ok, here is the MVC for react according the article author
+
+A Presentation Layer of Controller and View React Components
+A UI-Agnostic Data Model
+React - "just a view library"
+
+keep files thin and do one thing.
+
+Reconciliation
+used by react to not rerender the entire application on every action, uses keys to identify components.
+
+Keys should be stable, predictable, and unique. Unstable keys (like those produced by Math.random()) will cause many component instances and DOM nodes to be unnecessarily recreated, which can cause performance degradation and lost state in child components.
