@@ -1,0 +1,46 @@
+Arch style/patterns
+
+Have a plan, don't make your own plan, use a common plan like:
+
+Presentation layer or UI layer
+Application layer or Service layer
+Business logic layer or Domain layer
+Data access layer or Persistence layer
+
+or, event-driven, domain driven, pipes and filters, microservices
+
+Container and Presentation
+
+container: stateful, how it works
+
+presentation: how it looks
+
+Container Details
+
+
+like class component in lecture, use this.setState.
+
+Presentation Details
+
+
+has html, passing props, use propTypes.
+
+Function vs class components
+
+
+functional component can't use setState(), but custom hooks changes that.
+
+functional components: smaller, easier to read, maybe faster performance in future versions of React.
+
+Conditional Rendering
+
+
+Using a component and boolean linked to state to toggle if component renders or not.
+
+
+
+
+
+
+
+
