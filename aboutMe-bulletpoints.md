@@ -21,9 +21,9 @@ For me this was debugging factory equipment and describing broken stuff that I f
 
 ## Maybe one strength, I list engineering methodology below and how I used it to fix machines.
 1. Define the problem(what are the requirements)
-1. Create measureables(how can I problem the problem is solved?)
+1. Create measureables(how can the problem be proved it is solved?)
 1. Create solution
-1. Measure that the solution meets the problem requirement.
+1. Measure that the solution meets the problem requirements.
 1. Determine next steps, repeat.
 
 
