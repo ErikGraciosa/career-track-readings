@@ -1,7 +1,7 @@
 Answer questions that aren't yet asked. Make your own question for things you want to say.
 
 ### Why are you interested in the job?
-- For this one I looked at what Atlassian did, saw that they own Jira and Trello and I've used those and was interested in the colloboration and project organizing products.
+- For this one I looked at what Atlassian did, saw that they own Jira and Trello and I've used those and was interested in the colloboration and project organizing products. So I point out I've used them and what I think of them.
 
 ## Basic Intro, who are you? (Basically saying 'I am ready to talk about these things, you should ask me about them, add whatever other high level topics you want to talk about here)
 - "Currently engineering fullstack javascript appilcations using:
