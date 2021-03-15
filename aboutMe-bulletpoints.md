@@ -10,7 +10,7 @@ Not sure what to say in about me? Ask yourself questions before the interviewer,
   - NodeJS
   - PostgresSQL
 
-# What do you want? What are you here?
+# What do you want? Why are you here?
 ### More than I want this job, why do you want this job?
 - Interested in joining dev team and focusing on details of technical problems and troubleshooting vs previous work of coordinating resources and setting up logistics and repetitive work.
 
